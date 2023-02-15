@@ -1,0 +1,51 @@
+     load test.ppm testPPM
+
+     load test.png testPNG
+
+     load test.jpg testJPG
+
+     load test.bmp testBMP
+
+     brighten testPNG 45 test-brighter
+
+     darken testPNG 23 test-darker
+
+     vertical-flip testPNG test-vertical
+
+     horizontal-flip testPNG test-horizontal
+
+     greyscale testPNG value-component test-value
+
+     greyscale testPNG red-component test-red
+
+     greyscale testPNG green-component test-green
+
+     greyscale testPNG blue-component test-blue
+
+     greyscale testPNG luma-component test-luma
+
+     greyscale testPNG intensity-component test-intensity
+
+     color-transformation testPNG sepia test-sepia
+
+     color-transformation testPNG greyscale test-greyscale
+
+     filter testPNG blur test-blur
+
+     filter testPNG sharpen test-sharpen
+
+     darken testJPG 32 testJPG-darker
+
+     darken testBMP 32 testBMP-darker
+
+     darken testPPM 32 testPPM-darker
+
+     save test-brighter.png test-brighter
+
+     save testJPG-darker.jpg testJPG-darker
+
+     save testBMP-darker.bmp testBMP-darker
+
+     save testPPM-darker.ppm testPPM-darker
+
+     q
